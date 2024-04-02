@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="form.js" ></script>
+    
+    <style>
+        body{
+         
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            width: 30%;
+            border: 2px solid black;
+        }
+        button{
+            background: rgb(2, 176, 2);
+            color: white;
+            margin-left: 220px;
+            margin-bottom: 20px;
+            height: 20px;
+
+        } 
+        
+        span{
+            position: relative;
+            top: 20px;
+            right: 170px;
+        }
+     </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Task Assignment Form</h1>
+    <form action="dupindex.html">
+        <form id="form">
+            <label for="firstname" style="margin-left: 30px;"><b>Employee Name:</b></label><br><br>
+            <input type="text" name="firstname" id="firstname" style="margin-left: 25px;"> <span >FirstName</span>
+            <input type="text" name="lastname" id="lastname" style="margin-left: 25px;"> <span >LastName</span><br><br><br><br>
+       
+             <label for="firstname" style="margin-left: 30px;"><b>ManagerName:</b></label><br><br>
+             <input type="text" name="FirstName" id="ManegerName" style="margin-left: 25px;"> <span >FirstName</span>
+             <input type="text" name="LastName" id="ManegerName1" style="margin-left: 25px;"> <span >LastName</span><br><br><br><br>
+             
+
+
+            <label for="task" style="margin-left: 25px;"><b>Task:</b></label>
+            <label for="task" style="margin-left: 43%;"><b>Task ID:</b></label><br><br>
+            <input type="text" name="task" id="task" style="margin-left:25px"> 
+            <input  type="text" name="taskid" id="taskid"  style="margin-left: 17%;"><br><br><br><br>
+            
+            <label style="margin-left: 25px;"></label><b>Status</b></label><br><br>
+            <input type="radio" name="status" value="Not Started" style="margin-left: 25px;">Not Started<br>
+            <input type="radio" name="status" value="In Progress" style="margin-left: 25px;">In Progress<br>
+            <input type="radio" name="status" value="Done" style="margin-left: 25px;">Done<br>
+            <input type="radio" name="status" value="Awaiting Feedback" style="margin-left: 25px;">Awaiting Feedback<br><br>
+            
+            <label style="margin-left: 30px;"></label><b>Additional Notes:</b></label><br><br>
+            <textarea placeholder="Type here....." id="AdditionalNotes" style="height: 60px; width: 380px; margin-left: 30px;"></textarea> <br><br>
+            
+            <label style="margin-left: 30px;"></label><b>Instructions:</b></label><br><br>
+            <textarea id="Instructions" style="height: 60px; width: 380px; margin-left: 30px;"></textarea> <br><br>
+        <button >SUBMIT</button>
+        </form>
+    </form>
+    
+    
+    
+
+
+
+</body>
+
+    
+</html>
